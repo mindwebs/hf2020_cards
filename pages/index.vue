@@ -16,6 +16,7 @@
 
           <p class="card-text" v-if="post.interests">
             <strong>Interested in: </strong>
+            <span v-if="post.interests.length === 0">Nothing Specified!</span>
             <span v-for="interest in post.interests" :key="interest">{{interest}}, </span>
           </p>
 
@@ -56,6 +57,7 @@
     li{
         border: 2px solid #ccc;
         padding: 20px;
+        margin-bottom: 10px;
     }
 
     a{

@@ -2,6 +2,7 @@
   <div class="page">
     <Navbar />  
     <div class="body container">
+      <h1 v-if="page.title">{{page.title}}'s page</h1>
       <slot name="default" />
     </div>
     <Footer />
@@ -16,7 +17,9 @@ export default {
   components: {
     Navbar,
     Footer
-  }
+  },
+  
+  props: ['page']
 }
 </script>
 
@@ -31,7 +34,7 @@ export default {
 
 .container{
   width: 90%;
-  max-width: 1024px;
+  max-width: 996px;
   margin: 0 auto;
 }
 
