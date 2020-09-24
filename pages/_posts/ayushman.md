@@ -14,9 +14,7 @@ My page is basically here to make you aware about what you can do in this page. 
 
 <div class="vue-zone"> 
     You have clicked the button below for <strong>{{count}}</strong> times. 
-
     <button @click="clicked()">Click me!</button>
-
     <p>Yes you can override styles and can also implement Javascript with vue.js</p>
 </div>
 

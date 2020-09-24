@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "saber dev",
-    "build": "saber"
+    "build": "saber build",
+    "serve": "saber build && saber serve"
   },
   "keywords": [],
   "author": "",
