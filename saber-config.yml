@@ -1,0 +1,6 @@
+plugins:
+  - resolve: saber-plugin-query-posts
+
+permalinks:
+  post: /posts/:slug
+  page: /:slug

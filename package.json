@@ -1,0 +1,17 @@
+{
+  "name": "hacktoberfest_2020_participation_cards",
+  "version": "1.0.0",
+  "description": "## Who is this repository for?",
+  "main": "index.js",
+  "scripts": {
+    "dev": "saber dev",
+    "build": "saber"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "saber": "^0.11.7",
+    "saber-plugin-query-posts": "^0.4.6"
+  }
+}
