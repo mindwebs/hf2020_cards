@@ -15,7 +15,7 @@ This is a beginner firendly repository. You can start your Hacktoberfest journey
 
 **Step 4:** Once you are happy with your page, push the changes to the forked repo, and from there submit a Pull request to our repo. 
 
-**Step 5:** Wait for your PR to be accepted and see your card and page show in our live page @ [Not created yet]()
+**Step 5:** Wait for your PR to be accepted and see your card and page show in our live page @ [Test URL](https://hacktoberfest-2020-participation-card.netlify.app/)
 
 ## Technology used
 
