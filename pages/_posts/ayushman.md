@@ -3,6 +3,24 @@ title: Ayushman Bilas Thakur
 institution: Kalyani Government Engineering College
 interests: [Fullstack Web Development]
 layout: blog
+socials: [
+    {
+        name: 'Twitter',
+        url: 'https://twitter.com/AyushmanBThakur'
+    },
+    {
+        name: 'Github',
+        url: 'https://github.com/AyushmanBilasThakur'
+    },
+    {
+        name: 'Webpage',
+        url: 'https://www.ayushmanbthakur.com/'
+    },
+    {
+        name: 'Blog',
+        url: 'https://dev.to/ayushmanbthakur'
+    }
+]
 ---
 
 ## Hello,

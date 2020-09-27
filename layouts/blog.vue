@@ -5,6 +5,11 @@
 
       <a class="big-back-button" href="/">&lt;- Go back</a>
 
+      <div v-if="page.image"> 
+        <img :src="page.image" alt="page.title">
+      </div>
+
+
       <h1 v-if="page.title">{{page.title}}'s page</h1>
       <slot name="default" />
 
