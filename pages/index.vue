@@ -1,24 +1,40 @@
 <template>
   <div>
-    <h3 class="page-title">Current page List</h3>
+    <h3 class="page-title">Current List</h3>
     <div class="recent-posts" v-if="page.posts">
       <ul>
         <li v-for="post in page.posts" :key="post.permalink">
-          <h2>
-            <a :href="post.permalink">{{
-              post.title
-            }}</a>
-          </h2>
 
-          <p class="card-text" v-if="post.college">
-              <strong>Studies in: </strong>{{post.college}}
-          </p>
+          <div v-if="post.image"> 
+            <img :src="post.image" alt="post.title">
+          </div>
 
-          <p class="card-text" v-if="post.interests">
-            <strong>Interested in: </strong>
-            <span v-if="post.interests.length === 0">Nothing Specified!</span>
-            <span v-for="interest in post.interests" :key="interest">{{interest}}, </span>
-          </p>
+          <div>
+            <h2>
+              <a :href="post.permalink">{{
+                post.title
+              }}</a>
+            </h2>
+
+            <p class="card-text" v-if="post.institution">
+                <strong>Studies/Works in: </strong>{{post.institution}}
+            </p>
+
+            <p class="card-text" v-if="post.interests">
+              <strong>Interested in: </strong>
+              <span v-if="post.interests.length === 0">Nothing Specified!</span>
+              <span v-for="interest in post.interests" :key="interest">{{interest}}, </span>
+            </p>
+
+
+            <p class="card-text" v-if="post.socials">
+              <strong>Socials: </strong>
+              <span v-for="(social,index) in post.socials" :key="index">
+                <a :href="social.url">{{social.name}}</a>&nbsp;
+              </span>
+              
+            </p>
+          </div>
 
         </li>
       </ul>
@@ -58,6 +74,13 @@
         border: 2px solid #ccc;
         padding: 20px;
         margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    li img{
+      width: 100px;
+      margin-right: 40px;
     }
 
     a{
@@ -67,5 +90,17 @@
 
     .card-text{
         margin-top: 10px;
+    }
+
+
+    @media (max-width: 450px){
+      li{
+        flex-direction: column;
+      }
+
+      li img{
+        margin: 0;
+        margin-bottom: 10px;
+      }
     }
 </style>

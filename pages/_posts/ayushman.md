@@ -1,8 +1,7 @@
 ---
 title: Ayushman Bilas Thakur
-college: Kalyani Government Engineering Collge
+institution: Kalyani Government Engineering College
 interests: [Fullstack Web Development]
-date: 2019-02-22
 layout: blog
 ---
 

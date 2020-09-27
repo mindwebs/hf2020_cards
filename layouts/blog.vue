@@ -2,8 +2,21 @@
   <div class="page">
     <Navbar />  
     <div class="body container">
+
+      <a class="big-back-button" href="/">&lt;- Go back</a>
+
       <h1 v-if="page.title">{{page.title}}'s page</h1>
       <slot name="default" />
+
+      <div class="margined">
+        <p class="card-text" v-if="page.socials">
+          <strong>Socials: </strong>
+          <span v-for="(social,index) in page.socials" :key="index">
+            <a :href="social.url">{{social.name}}</a>&nbsp;
+          </span>
+          
+        </p>
+      </div>
     </div>
     <Footer />
   </div>
@@ -61,4 +74,12 @@ h1,h2,h3,h4,h5,h6{
     margin: 10px 0;
 }
 
+
+.margined{
+  margin-top: 20px;
+}
+
+.big-back-button{
+  font-size: 1.5rem;
+}
 </style>
