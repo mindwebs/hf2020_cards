@@ -1,7 +1,7 @@
 <template>
   <nav>
     <div class="container">
-      <h1>Hacktoberfest Satrter Repo</h1>
+      <h1>HF2020 Cards</h1>
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="https://hacktoberfest.digitalocean.com/">About Hacktoberfest</a></li>
