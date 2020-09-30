@@ -1,5 +1,5 @@
 ---
-title: Advanced Page
+title: Advanced
 institution: MinD Webs
 interests: [Git, GitHub]
 layout: blog
@@ -8,9 +8,7 @@ socials: []
 
 ## Hello,
 
-Ayushman Bilas Thakur here. Thanks for looking at my page. 
-
-My page is basically here to make you aware about what you can do in this page. Here you can do anything! These markdown pages are powered by Vue JS. So you can do things like this:
+This page is basically here to make you aware about what you can do in these markdown pages. Here you can do anything! These markdown pages are powered by Vue JS. So you can do things like this:
 
 <div class="vue-zone"> 
     You have clicked the button below for <strong>{{count}}</strong> times. 
@@ -43,5 +41,6 @@ So opportunity with this repo is endless!
         padding: 20px;
         background: #eee;
         box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+        margin: 50px 0;
     }
 </style>

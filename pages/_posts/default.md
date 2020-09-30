@@ -16,7 +16,7 @@ socials: [
         url: 'https://mwv.net.in/'
     }
 ]
-image: '/mw.png'
+image: 'https://mindwebs.org/img/logo.png'
 layout: blog
 ---
 
@@ -27,13 +27,24 @@ You can provide an image for your card in the page by simply mentioning the `ima
 
 If similarly you want to have an image on your page you can do the same thing, upload to the static folder and link it via markdown:
 
-![Our Logo Again](/mw.png)
+![Our Logo Again](https://mindwebs.org/img/logo.png)
 
 Syntax for this is: 
 
 ```
-![Our Logo Again](/mw.png)
+![Our Logo Again](https://mindwebs.org/img/logo.png)
 ```
+
+In case you can't get your pictures online, you may use the static folder like this:
+
+![Our Logo Third time](/mw.png)
+
+
+
+```
+![Our Logo Third time](/mw.png)
+```
+
 
 ---
 
