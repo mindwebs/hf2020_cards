@@ -77,6 +77,3 @@ image: '/mw.png'
 layout: blog
 ---
 ```
-
-
-If you Want to do something more in these pages then have a look at the page by [Ayushman](/posts/ayushman)

@@ -2,7 +2,7 @@
 
 ## Who is this repository for?
 
-This is a beginner firendly repository. You can start your Hacktoberfest journey with this repository. Here you will be your own card & page as a markdown file and it will be shown in the hosted version of this app.
+This is a beginner friendly repository. You can start your Hacktoberfest journey with this repository. Here you will be your own card & page as a markdown file and it will be shown in the hosted version of this app.
 
 
 ## How to Contribute

@@ -16,6 +16,15 @@ export default {
   components: {
     Navbar,
     Footer
+  },
+  head: {
+    title: 'HF2020 Cards',
+    meta: [
+      {
+        name: 'description',
+        content: 'A page to add simple cards to during Hacktoberfest 2020'
+      }
+    ]
   }
 }
 </script>
