@@ -12,7 +12,7 @@ socials: [
         url: 'https://github.com/pritikmshaw'
     },
     {
-        name: 'Linkedin'
+        name: 'Linkedin',
         url: 'https://www.linkedin.com/in/priti-shaw-b5a72b1ab/'
     }
 ]
