@@ -75,7 +75,8 @@
         padding: 20px;
         margin-bottom: 10px;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
+        flex-direction: column;
     }
 
     li img{

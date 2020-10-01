@@ -77,4 +77,7 @@ layout: blog
 ```
 
 
-If you want to do something more in these pages then have a look at the page by [Ayushman](/posts/ayushman)
+
+
+If you Want to do something more in these pages then have a look at the [advanced page](/posts/advanced-features)
+
