@@ -24,4 +24,4 @@ socials: [
 image: 'https://avatars1.githubusercontent.com/u/43778255?s=400&u=6a4169af71fbfefe36905d31564ca907e8a3068f&v=4'
 layout: blog
 ---
-Hello! I am a Machine Learning Enthusiast who loves mathematics behind every algorithm!
+Hello! I am a Machine Learning enthusiast who loves the mathematics behind every algorithm!
