@@ -21,7 +21,7 @@ socials: [
     },
     
 ]
-image: 'https://drive.google.com/file/d/15tl56zHcU0oUYzFnc8zgWUA-fo5M5_q7/view?usp=sharing'
+image: 'https://avatars1.githubusercontent.com/u/43778255?s=400&u=6a4169af71fbfefe36905d31564ca907e8a3068f&v=4'
 layout: blog
 ---
 Hello! I am a Machine Learning Enthusiast who loves mathematics behind every algorithm!
