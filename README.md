@@ -11,7 +11,7 @@ This is a beginner friendly repository. You can start your Hacktoberfest journey
 
 **Step 2:** Inside the `/pages/_posts` folder, create your own markdown file with your name. For example, my name is Ayushman Bilas Thakur, so the file I will be creating is `ayushman_bilas_thakur.md`(Use the _ for a legible URL, just make sure you don't use spacebar). Please start by copying `default.md` and filling out the top part.
 
-**Step 3:** Of course, we are developers. We want to test everything befor uploading it. For that just run `npm install` and then `npm run dev` to run the project locally and see how your card/page is shown by clicking on your name on the homepage. Live reload is enabled here, so feel free to change the makdown as per your liking as long as possible.
+**Step 3:** Of course, we are developers. We want to test everything before uploading it. For that just run `npm install` and then `npm run dev` to run the project locally and see how your card/page is shown by clicking on your name on the homepage. Live reload is enabled here, so feel free to change the makdown as per your liking as long as possible.
 
 **Step 4:** Once you are happy with your card and page, push the changes to the forked repo, and from there submit a Pull request to our repo. 
 
