@@ -2,7 +2,7 @@
 Title: Advanced
 Institution: MinD Webs
 Interests: [Git, GitHub]
-Layout: blog
+Layout: Blog
 Socials: []
 ---
 
