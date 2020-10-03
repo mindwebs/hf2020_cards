@@ -1,9 +1,9 @@
 ---
-title: Advanced
-institution: MinD Webs
-interests: [Git, GitHub]
-layout: blog
-socials: []
+Title: Advanced
+Institution: MinD Webs
+Interests: [Git, GitHub]
+Layout: Blog
+Socials: []
 ---
 
 ## Hello,
