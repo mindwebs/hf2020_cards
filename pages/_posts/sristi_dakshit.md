@@ -1,8 +1,8 @@
 ---
-Title: Sristi Dakshit
-Institution: Calcutta Institute Of Engineering and Management
-Interests: [Artificial Intelligence, Machine Learning, Reading, Sports]
-Socials: [
+title: Sristi Dakshit
+institution: Calcutta Institute Of Engineering and Management
+interests: [Artificial Intelligence, Machine Learning, Reading, Sports]
+socials: [
     {
         Name: 'Facebook',
         Url: 'https://www.facebook.com/sristi.dakshit/'
@@ -17,8 +17,8 @@ Socials: [
     }
     
 ]
-Image: 'https://avatars3.githubusercontent.com/u/56925468?s=460&u=1fbb2d317dc7895c10f0a4ad1a7519c9a84a4a4c&v=4'
-Layout: Blog
+image: 'https://avatars3.githubusercontent.com/u/56925468?s=460&u=1fbb2d317dc7895c10f0a4ad1a7519c9a84a4a4c&v=4'
+layout: Blog
 ---
 
 This is a default card template. All the fields mentioned on the top are required to stay to our app not to fail. Please change the `title` to be **YOUR NAME** and the `institution` to be **YOUR COLLEGE/THE INSTITUTION YOU ARE WORKING WITH**. You can visit [our repo](https://github.com/mindwebs/hacktoberfest_2020_participation_cards) to add your own page and cards.
