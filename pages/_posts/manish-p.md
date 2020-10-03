@@ -1,0 +1,18 @@
+---
+title: Manish Pandey
+institution: Kalyani Govt. Engg. College
+interests: [Competitive Programming, Machine Learning, Rowing]
+socials: [
+    {
+        name: 'Github',
+        url: 'https://github.com/InvincibleNobita'
+    },
+    {
+        name: 'Instagram',
+        url: 'https://www.instagram.com/invincibletaki/'
+    }
+]
+image: '/static/mp.jpg'
+layout: blog
+---
+
