@@ -19,5 +19,5 @@ socials: [
 image: 'https://avatars3.githubusercontent.com/u/41240023?s=400&u=a68aee819551cdbeb6bd8b1ee6bd2d22df878f67&v=4'
 layout: blog
 ---
-I am a Deep Learning enthusiast who loves to solve real world problems!!
+I am a Deep Learning enthusiast who love to solve real world problems!!
 
