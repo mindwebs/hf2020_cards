@@ -1,9 +1,9 @@
 <template>
   <div>
     <h3 class="page-title">Current List</h3>
-    <div class="recent-posts" v-if="page.posts">
+    <div class="recent-posts" v-if="posts">
       <ul>
-        <li v-for="post in page.posts" :key="post.permalink">
+        <li v-for="post in posts" :key="post.permalink">
 
           <div v-if="post.image"> 
             <img :src="post.image" alt="post.title">
@@ -49,12 +49,20 @@
     }
 
     export default {
-        props: ['page'],
-        methods: {
-            formatDate(v) {
-                const date = new Date(v)
-                return `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()}`
+        props: {
+          page: {
+            type: Object,
+            required: true,
+          }
+        },
+        computed: {
+          posts() {
+            if (this.page.posts) {
+              return this.page.posts.sort((postA, postB) => {
+                return postA.createdAt.getTime() - postB.createdAt.getTime()
+              }).reverse()
             }
+          }
         }
     }
 </script>
