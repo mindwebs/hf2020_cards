@@ -4,16 +4,16 @@ institution: Calcutta Institute Of Engineering and Management
 interests: [Artificial Intelligence, Machine Learning, Reading, Sports]
 socials: [
     {
-        Name: 'Facebook',
-        Url: 'https://www.facebook.com/sristi.dakshit/'
+        name: 'Facebook',
+        url: 'https://www.facebook.com/sristi.dakshit/'
     },
     {
-        Name: 'Github',
-        Url: 'https://github.com/SDakshit'
+        name: 'Github',
+        url: 'https://github.com/SDakshit'
     },
     {
-        Name: 'Linkedin',
-        Url: 'https://www.linkedin.com/in/sristidakshit0013/'
+        name: 'Linkedin',
+        url: 'https://www.linkedin.com/in/sristidakshit0013/'
     }
     
 ]
